@@ -146,6 +146,11 @@ function animationPaths() {
     },
     direction: 'normal',
     loop: false,
+    complete: function (anime) {
+      document.querySelectorAll('.round').forEach(function (el) {
+        el.style.display = 'block';
+      });
+    },
   });
 }
 

@@ -25,7 +25,7 @@ svg {
   width: 1000px;
   height: 500px;
 }
-.circle {
+/* .circle {
   top: 35px;
   left: 35px;
   position: absolute;
@@ -79,10 +79,11 @@ svg {
 .circle12,
 .circle13 {
   background-color: green;
-}
+} */
 
-/* .round {
+.round {
   position: absolute;
+  display: none;
   background-color: black;
   z-index: 3;
   top: 35px;
@@ -91,40 +92,53 @@ svg {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  background-color: green;
+}
+.circle35 {
+  background-color: royalblue;
 }
 .circle20 {
   left: 375px;
+  background-color: royalblue;
 }
 .circle21 {
   left: 835px;
+  background-color: royalblue;
 }
 .circle22 {
   left: 835px;
   top: 98px;
+  background-color: teal;
 }
 .circle23 {
   left: 745px;
   top: 98px;
+  background-color: teal;
 }
 .circle24 {
   left: 135px;
   top: 155px;
+  background-color: purple;
 }
 .circle25 {
   left: 205px;
   top: 155px;
+  background-color: purple;
 }
 .circle26 {
   left: 385px;
   top: 155px;
+  background-color: purple;
 }
 .circle27 {
   left: 595px;
   top: 155px;
+  background-color: purple;
 }
 .circle28 {
   left: 938px;
   top: 155px;
+  background-color: purple;
 }
 .circle29 {
   left: 385px;
@@ -149,4 +163,4 @@ svg {
 .circle34 {
   left: 425px;
   top: 357px;
-} */
+}
