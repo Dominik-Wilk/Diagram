@@ -12,21 +12,71 @@ body {
   justify-content: center;
 }
 .container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position: relative;
+  width: 1000px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: tomato;
 }
 svg {
+  position: relative;
   width: 1000px;
   height: 500px;
 }
-.path {
+.circle {
+  top: 35px;
+  left: 35px;
   position: absolute;
-  top: -500px;
-  width: 1000px;
-  height: 500px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 2;
+}
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6,
+.circle7,
+.circle8,
+.circle9,
+.circle10,
+.circle11,
+.circle12,
+.circle13,
+.circle14,
+.circle15 {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+.circle1,
+.circle2,
+.circle0 {
+  background-color: royalblue;
+}
+.circle3,
+.circle4 {
+  background-color: teal;
+}
+
+.circle5,
+.circle6,
+.circle7,
+.circle8,
+.circle9 {
+  background-color: purple;
+}
+
+.circle14,
+.circle15,
+.circle10,
+.circle11,
+.circle12,
+.circle13 {
+  background-color: green;
 }
