@@ -1,4 +1,4 @@
-function animationPath() {
+function animationCircles() {
   const path1 = anime.path('.container .svg .path1');
   const path2 = anime.path('.container .svg .path2');
   const path3 = anime.path('.container .svg .path3');
@@ -133,4 +133,20 @@ function animationPath() {
     duration: 5000,
   });
 }
-animationPath();
+animationCircles();
+
+function animationPaths() {
+  let line = anime({
+    targets: 'path',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 2000,
+    delay: function (el, i) {
+      return i * 250;
+    },
+    direction: 'normal',
+    loop: false,
+  });
+}
+
+animationPaths();
