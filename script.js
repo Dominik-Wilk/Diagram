@@ -74,7 +74,7 @@ const createPaths = () => {
 };
 
 const createCircles = () => {
-  for (let i = 0; i <= 16; i++) {
+  for (let i = 0; i <= 15; i++) {
     const circle = document.createElement('div');
     circle.classList.add(`circle`);
     circle.classList.add(`circle${i}`);
@@ -103,3 +103,80 @@ function animationPaths() {
 }
 
 createPaths();
+
+// gchild1_2 === child2_1_2
+// to make tree easer to read in "gchild" I cuted first number from his parent
+
+let tree = {
+  name: 'root',
+  children: [
+    {
+      name: 'child1',
+      children: [
+        {
+          name: 'child1_1',
+          children: [],
+        },
+      ],
+    },
+
+    {
+      name: 'child2',
+      children: [
+        {
+          name: 'child2_1',
+          children: [
+            {
+              name: 'gchild1_2',
+              children: [
+                {
+                  name: 'gchild1_3',
+                  children: [
+                    {
+                      name: 'gchild1_4',
+                      children: [],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: 'child2_2',
+          children: [
+            {
+              name: 'gchild2_1',
+              children: [],
+            },
+            {
+              name: 'gchild2_2',
+              children: [],
+            },
+          ],
+        },
+        {
+          name: 'child2_2_1',
+          children: [],
+        },
+        {
+          name: 'child2_2_2',
+          children: [
+            {
+              name: 'gchild2_2_1',
+              children: [],
+            },
+            {
+              name: 'gchild2_2_2',
+              children: [],
+            },
+          ],
+        },
+        {
+          name: 'child2_2_3',
+          children: [],
+        },
+      ],
+    },
+  ],
+};
