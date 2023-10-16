@@ -25,63 +25,8 @@ svg {
   width: 1000px;
   height: 500px;
 }
-/* .circle {
-  top: 35px;
-  left: 35px;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-  border-radius: 50%;
-  z-index: 2;
-}
-.circle1,
-.circle2,
-.circle3,
-.circle4,
-.circle5,
-.circle6,
-.circle7,
-.circle8,
-.circle9,
-.circle10,
-.circle11,
-.circle12,
-.circle13,
-.circle14,
-.circle15 {
-  position: absolute;
-  top: -15px;
-  left: -15px;
-}
-.circle1,
-.circle2,
-.circle0 {
-  background-color: royalblue;
-}
-.circle3,
-.circle4 {
-  background-color: teal;
-}
 
-.circle5,
-.circle6,
-.circle7,
-.circle8,
-.circle9 {
-  background-color: purple;
-}
-
-.circle14,
-.circle15,
-.circle10,
-.circle11,
-.circle12,
-.circle13 {
-  background-color: green;
-} */
-
-.round {
+.circle {
   position: absolute;
   display: none;
   background-color: black;
@@ -94,73 +39,73 @@ svg {
   border-radius: 50%;
   background-color: green;
 }
-.circle35 {
+.circle0 {
   background-color: royalblue;
 }
-.circle20 {
+.circle1 {
   left: 375px;
   background-color: royalblue;
 }
-.circle21 {
+.circle2 {
   left: 835px;
   background-color: royalblue;
 }
-.circle22 {
+.circle3 {
   left: 835px;
   top: 98px;
   background-color: teal;
 }
-.circle23 {
+.circle4 {
   left: 745px;
   top: 98px;
   background-color: teal;
 }
-.circle24 {
+.circle5 {
   left: 135px;
   top: 155px;
   background-color: purple;
 }
-.circle25 {
+.circle6 {
   left: 205px;
   top: 155px;
   background-color: purple;
 }
-.circle26 {
+.circle7 {
   left: 385px;
   top: 155px;
   background-color: purple;
 }
-.circle27 {
+.circle8 {
   left: 595px;
   top: 155px;
   background-color: purple;
 }
-.circle28 {
+.circle9 {
   left: 938px;
   top: 155px;
   background-color: purple;
 }
-.circle29 {
+.circle10 {
   left: 385px;
   top: 255px;
 }
-.circle30 {
+.circle11 {
   left: 435px;
   top: 255px;
 }
-.circle31 {
+.circle12 {
   left: 135px;
   top: 355px;
 }
-.circle32 {
+.circle13 {
   left: 285px;
   top: 357px;
 }
-.circle33 {
+.circle14 {
   left: 385px;
   top: 357px;
 }
-.circle34 {
+.circle15 {
   left: 425px;
   top: 357px;
 }
