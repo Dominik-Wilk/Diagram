@@ -28,7 +28,7 @@ svg {
 
 .circle {
   position: absolute;
-  display: none;
+  /* display: none; */
   background-color: black;
   z-index: 3;
   top: 35px;
@@ -39,73 +39,73 @@ svg {
   border-radius: 50%;
   background-color: green;
 }
-.circle0 {
-  background-color: royalblue;
-}
 .circle1 {
-  left: 375px;
-  background-color: royalblue;
+  background-color: gold;
 }
 .circle2 {
-  left: 835px;
+  left: 375px;
   background-color: royalblue;
 }
 .circle3 {
   left: 835px;
-  top: 98px;
-  background-color: teal;
+  background-color: royalblue;
 }
 .circle4 {
-  left: 745px;
+  left: 835px;
   top: 98px;
   background-color: teal;
 }
 .circle5 {
-  left: 135px;
-  top: 155px;
-  background-color: purple;
+  left: 745px;
+  top: 98px;
+  background-color: teal;
 }
 .circle6 {
-  left: 205px;
+  left: 135px;
   top: 155px;
   background-color: purple;
 }
 .circle7 {
-  left: 385px;
+  left: 205px;
   top: 155px;
   background-color: purple;
 }
 .circle8 {
-  left: 595px;
+  left: 385px;
   top: 155px;
   background-color: purple;
 }
 .circle9 {
-  left: 938px;
+  left: 595px;
   top: 155px;
   background-color: purple;
 }
 .circle10 {
-  left: 385px;
-  top: 255px;
+  left: 938px;
+  top: 155px;
+  background-color: purple;
 }
 .circle11 {
-  left: 435px;
+  left: 385px;
   top: 255px;
 }
 .circle12 {
+  left: 435px;
+  top: 255px;
+}
+.circle13 {
   left: 135px;
   top: 355px;
 }
-.circle13 {
+.circle14 {
   left: 285px;
   top: 357px;
 }
-.circle14 {
+.circle15 {
   left: 385px;
   top: 357px;
 }
-.circle15 {
+.circle16 {
   left: 425px;
   top: 357px;
 }
